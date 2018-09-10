@@ -6,3 +6,32 @@
   max-height: 400px;
   overflow: auto;
 }
+
+#adder {
+  background-color: LightGray;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5 px;
+  width: 60%;
+  float:center;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttonListing {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.button:hover {
+  background-color: gray;
+}
