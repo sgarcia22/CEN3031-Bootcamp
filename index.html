@@ -7,7 +7,7 @@
   <body ng-app="directoryApp">
     <div class="container">
       <div class="row">
-        <h1>UF Directory App</h1>
+        <h1> --- UF Directory App --- </h1>
       </div>
       <div class="row" ng-controller="ListingsController">
         <div class="col-md-6">
@@ -43,14 +43,14 @@
               {{"Address: " + detailedInfo.address}}
             </div>
           </div>
-          <div id="adder">
-            Building Code: <input ng-model="buildingCode"><br>
-            Building Name: <input ng-model="buildingName"><br>
-            Latitude Coordinates: <input ng-model="buildingLatitudeCoordinates"><br>
-            Longitude Coordinates: <input ng-model="buildingLongitudeCoordinates"><br>
-            Address: <input ng-model="buildingAddress"><br>
+          <div class="jumbotron" id=jumbotron2>
+            <h6>Building Code</h6> <input ng-model="buildingCode">
+            <h6>Building Name</h6> <input ng-model="buildingName">
+            <h6>Latitude Coordinates</h6> <input ng-model="buildingLatitudeCoordinates">
+            <h6>Longitude Coordinates</h6> <input ng-model="buildingLongitudeCoordinates">
+            <h6>Address</h6> <input ng-model="buildingAddress"><br>
+            <button class="button" id="buttonListing" ng-click="addListing()">Add New Listing</button>
           </div>
-          <button class="button" id="buttonListing" ng-click="addListing()">Add New Listing</button>
         </div>
       </div>
     </div>

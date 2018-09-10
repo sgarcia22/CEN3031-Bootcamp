@@ -7,15 +7,6 @@
   overflow: auto;
 }
 
-#adder {
-  background-color: LightGray;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 5 px;
-  width: 60%;
-  float:center;
-}
-
 .button {
   background-color: white;
   color: black;
@@ -28,10 +19,36 @@
 
 #buttonListing {
   text-align: center;
-  margin: auto;
-  width: 60%;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+#jumbotron2 {
+  width: 35%;
+  padding: 5px;
 }
 
 .button:hover {
   background-color: gray;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-size: 60px;
+}
+
+h2 {
+  margin-top: -40px;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font-size: 40px;
+}
+
+h6 {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
 }
