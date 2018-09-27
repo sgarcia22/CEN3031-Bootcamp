@@ -2,7 +2,7 @@
 .DS_Store
 
 # configuration files
-server/config/config.js
+#server/config/config.js
 
 # node
 node_modules
